@@ -1,0 +1,13 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+crash.log
+
+# Data (regenerate with generate_loan_data.py)
+sample-data/*.csv
+
+# Python
+__pycache__/
+.venv/
