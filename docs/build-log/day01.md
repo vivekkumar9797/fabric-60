@@ -33,3 +33,9 @@
 3. Why can't you DELETE through the SQL analytics endpoint?
 4. Why does a Terraform-created Lakehouse differ from a portal one?
 5. How would a Databricks team read this table without copying it?
+
+- Trial capacity: FTL4 → upgraded to FTL64 (64 CU) on 14 Oct 2026; region Central India;
+  capacity ID 98b1e0f2-1787-491a-a127-bc7da852b5c6; admin vivekvc97
+- Trial capacity has no Azure resource group/subscription — it is not an Azure resource
+  (paid F-SKUs are Microsoft.Fabric/capacities in Azure)
+- Note: SQL endpoint / Warehouse CU consumption calculation changed Aug 2026 (portal banner)
