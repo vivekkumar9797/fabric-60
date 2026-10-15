@@ -1,0 +1,5 @@
+# Copy to dev.tfvars (gitignored) and fill in
+tenant_id          = "607395d0-ca31-42b1-b67b-0a36385fca6f"
+capacity_id        = "98b1e0f2-1787-491a-a127-bc7da852b5c6"
+environment        = "dev"
+engineers_group_id = "<object id of sg-fabric-engineers>"
