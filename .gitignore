@@ -11,3 +11,7 @@ sample-data/*.csv
 # Python
 __pycache__/
 .venv/
+
+# Terraform saved plans
+tfplan
+*.tfplan
