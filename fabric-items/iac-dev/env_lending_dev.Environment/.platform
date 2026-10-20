@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Environment",
+    "displayName": "env_lending_dev",
+    "description": "Spark compute + properties for the lending pipelines"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "44621d6d-b12f-8e47-4ed9-3e356bd74880"
+  }
+}
