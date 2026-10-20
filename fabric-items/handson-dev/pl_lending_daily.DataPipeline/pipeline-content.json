@@ -1,0 +1,39 @@
+{
+  "properties": {
+    "activities": [
+      {
+        "type": "TridentNotebook",
+        "typeProperties": {
+          "notebookId": "0aae79d5-4bb6-96f6-44f7-75bb90aff839",
+          "workspaceId": "00000000-0000-0000-0000-000000000000",
+          "parameters": {
+            "run_date": {
+              "value": {
+                "value": "@formatDateTime(utcNow(),'yyyy-MM-dd')",
+                "type": "Expression"
+              },
+              "type": "string"
+            },
+            "source_lakehouse": {
+              "value": "lh_bronze",
+              "type": "string"
+            },
+            "source_schema": {
+              "value": "raw",
+              "type": "string"
+            }
+          }
+        },
+        "policy": {
+          "timeout": "0.12:00:00",
+          "retry": 0,
+          "retryIntervalInSeconds": 30,
+          "secureInput": false,
+          "secureOutput": false
+        },
+        "name": "nb_bronze_to_silver",
+        "dependsOn": []
+      }
+    ]
+  }
+}
